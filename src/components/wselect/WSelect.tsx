@@ -28,6 +28,7 @@ export function WSelect(props: WSelectProps) {
       </label>
       <div className={styles.wSelectContent}>
         <select
+          id="category"
           name={props.title}
           className={styles.wSelect}
           defaultValue={props.defaultValue}

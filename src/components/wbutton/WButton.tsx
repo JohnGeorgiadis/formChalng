@@ -9,7 +9,7 @@ interface WButtonProps {
 export function WButton(props: WButtonProps) {
   return (
     <div className={styles.container}>
-      <button className={styles.wButton} onClick={props.onClick}>{props.content}</button>
+      <button className={styles.wButton} id="confirmButton" onClick={props.onClick}>{props.content}</button>
     </div>
   );
 }

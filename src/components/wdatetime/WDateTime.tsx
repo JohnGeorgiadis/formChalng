@@ -25,12 +25,14 @@ export function WDateTime(props: WDateTimeProps) {
       </label>
       <div className={styles.wDateTimeContent}>
         <input
+          id="date"
           className={styles.wDate}
           type="date"
           onBlur={(e: any) => onBlurDateHandler(e)}
         />
         <span className={styles.separator}>at</span>
         <input
+          id="time"
           className={styles.wTime}
           type="time"
           onBlur={(e: any) => onBlurTimeHandler(e)}

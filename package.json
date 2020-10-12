@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://johngeorgiadis.github.io/formChalng/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.2.5",
     "@testing-library/jest-dom": "^4.2.4",
@@ -23,6 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "cypress": "cypress open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^5.3.0"
+    "cypress": "^5.3.0",
+    "gh-pages": "^3.1.0"
   }
 }
