@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.inputLabel {
+  color: #87929c;
+  width: 100px;
+}
+
+.inputLabelRequired:after {
+  color: #87929c;
+  content: "*";
+  display: inline;
+}
+
+.wInputContent {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.wInput {
+  width: 100%;
+  padding: 0;
+  height: 30px;
+  border: 2px solid #f3f3f3;
+}
+
+.wInput::placeholder {
+  padding-left: 5px;
+  color: #87929c;
+}
+
+.errorContent {
+  color: red;
+}

@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.wEmailLabel {
+  color: #87929c;
+  width: 100px;
+}
+
+.wEmailContent {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.wEmail {
+  width: 100%;
+  padding: 0;
+  height: 30px;
+  border: 2px solid #f3f3f3;
+}
+
+.wEmail::placeholder {
+  padding-left: 5px;
+  color: #87929c;
+}
+
+.errorContent {
+  color: red;
+}

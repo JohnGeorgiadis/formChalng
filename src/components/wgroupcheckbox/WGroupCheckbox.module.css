@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.groupCheckbox {
+  margin: 0 auto;
+  width: 60%;
+}
+.groupCheckboxLabel {
+  color: #87929c;
+  width: 100px;
+}
+
+.groupCheckboxInput {
+  width: 50px;
+}
+
+.groupCheckbox label {
+  margin-right: 10px;
+}
+
+.errorContent {
+  color: red;
+}

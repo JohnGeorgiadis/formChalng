@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.wButton {
+  margin: 0 auto;
+  height: 32px;
+  background: #fe8d1b;
+  color: white;
+  border: 1px solid white;
+}
+
+.wButton:active,
+.wButton:hover {
+  background: white;
+  color: #fe8d1b;
+}

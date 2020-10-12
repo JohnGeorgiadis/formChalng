@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  background: #b0e4c9;
+  width: 50%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.title {
+  color: #0c924d;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.message {
+  margin-top: 20px;
+}

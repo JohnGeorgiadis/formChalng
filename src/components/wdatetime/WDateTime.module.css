@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.wDateLabel {
+  color: #87929c;
+  width: 100px;
+}
+
+.wDateTimeContent {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.wDate {
+  width: 20%;
+  padding: 0;
+  height: 30px;
+  border: 2px solid #f3f3f3;
+}
+
+.separator {
+  margin: 0 20px;
+}
+
+.wTime {
+  width: 15%;
+  padding: 0;
+  height: 30px;
+  border: 2px solid #f3f3f3;
+}
+
+.errorContent {
+  margin-top: 5px;
+  color: red;
+}

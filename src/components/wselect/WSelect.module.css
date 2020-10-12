@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.wSelectLabel {
+  color: #87929c;
+  width: 100px;
+}
+
+.wSelectLabelRequired:after {
+  color: #87929c;
+  content: "*";
+  display: inline;
+}
+
+.wSelectContent {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.wSelect {
+  width: 100%;
+  padding: 0;
+  height: 34px;
+  border: 2px solid #f3f3f3;
+}
+
+.errorContent {
+  color: red;
+}

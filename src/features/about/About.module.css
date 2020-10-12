@@ -1,0 +1,13 @@
+.container {
+  background: white;
+  padding: 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.containerTitle {
+  color: #87929c;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f3f3f3;
+}

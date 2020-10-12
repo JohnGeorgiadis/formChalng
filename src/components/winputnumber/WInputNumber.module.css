@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.inputNumberLabel {
+  color: #87929c;
+  width: 100px;
+}
+
+.inputContainer {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.inputNumber {
+  width: 70px;
+  height: 30px;
+  margin-right: 10px;
+  border: 2px solid #f3f3f3;
+}
